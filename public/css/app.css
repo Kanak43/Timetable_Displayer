@@ -1,0 +1,281 @@
+/** Login form styles **/
+.login-page {
+    background: url(../images/login_bg.gif);
+    height: 600px;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    padding: 0;
+    margin: 0;
+}
+.studentlogin-page {
+    background: url(../images/cls.gif);
+    height: 600px;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    padding: 0;
+    margin: 0;
+}
+
+#login-form-container {
+    margin-top: 150px;
+}
+
+#activation-form-container {
+    margin-top: 100px;
+}
+
+.login-form-header {
+    background: #ffffff;
+    border: .5px solid #000000;
+    color: #000000;
+    height: 60px;
+}
+
+.login-form-header h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-form-body {
+    border: .5px solid #000000;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+/** Style for buttons */
+.btn-custom {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.btn-custom:hover {
+    background: #3d3d29;
+    color: #FFFFFF;
+}
+
+.btn, input[type=text], input[type=password] {
+    border-radius: 0px !important;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+.site-logo {
+    color: #FFFFFF !important;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sidebar {
+   background: #343a40;
+   height: 180vh;
+}
+
+/** Menu **/
+.site-logo-container {
+    background-color: #343a40;
+    height: 50px;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.menu {
+    font-size: 1em;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu li {
+    color: #FFFAF0;
+    margin-bottom: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu li .fa {
+    float: left;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.menu li:hover, .menu li.active {
+    color: #FFFFFF;
+    background-color: #6c757d;
+}
+
+.menu li.active{
+    border-left: 2px solid #6c757d;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #FFFAF0;
+}
+
+.page-title {
+    background-color: #ebebe0;
+    color: #000000;
+    height: 70px;
+}
+
+.menubar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/** Pages */
+.no-data {
+    color: rgb(192, 192, 192);
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+.modal.custom-modal .modal-content {
+    border-radius: 0px;
+}
+
+/** Table */
+.table-head {
+    text-transform:uppercase;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background: #6c757d;
+    color: #FFFFFF;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+/** Redefinition for buttons */
+.btn-primary{
+    background: #5F9EA0;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #008B8B;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-danger:hover {
+    background: #DC143C;
+}
+
+/** Pagination buttons **/
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #DC143C;
+    border: 1px solid #DC143C;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    background: rgba(229, 76, 16, .1);
+    color: #008B8B;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: rgba(229, 76, 16, .1);
+}
+
+.paginationn>li>a:hover,
+.pagination>li>span:hover {
+}
+
+.select2-wrapper .select2-container {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    min-height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-top: 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+
+.side-icon {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/** Dashboard */
+.card-1 {
+    background: #FF6347;
+}
+
+.card-2 {
+    background: #FFA500;
+}
+
+.card-3 {
+    background: #3CB371;
+}
+
+.card-4 {
+    background: #4682B4;
+}
+
+.card-title {
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 2em;
+    color: azure;
+}
+
+.card-body {
+    font-size: 2em;
+    color: #fff;
+}
+
+.timetable-btn {
+    font-size: 1.5em;
+    border: none;
+    padding: 3px;
+}
+
+.input-group-btn .btn {
+    font-size: 16px;
+}
+
